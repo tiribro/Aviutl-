@@ -6,6 +6,6 @@ defaults:
       path: ""
     values:
       image:
-        path: docs/logo.jpg
+        path: /docs/logo.jpg
         height: 630
         width: 1200
