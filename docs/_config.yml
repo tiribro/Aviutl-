@@ -1,5 +1,6 @@
 theme: jekyll-theme-cayman
-site.title: "フキダシアリス"
+site.title: "フキダシアリス.anm"
+site.description: "Aviutl拡張編集 アニメーション効果フィルター スクリプト"
 twitter:
   username: tiribro
 site.github.is_project_page: 0
