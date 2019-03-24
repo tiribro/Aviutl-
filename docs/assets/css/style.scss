@@ -4,3 +4,15 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css?family=Kosugi+Maru');
 .project-name { font-family: 'Kosugi Maru', sans-serif; }
+.contain {
+    display: inline-block;
+    background-color: #ccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-size: contain;
+}
+
