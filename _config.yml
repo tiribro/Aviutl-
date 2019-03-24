@@ -1,0 +1,11 @@
+theme: jekyll-theme-cayman
+twitter:
+  username: tiribro
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /docs/logo.jpg
+        height: 630
+        width: 1200
