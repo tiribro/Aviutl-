@@ -2,8 +2,8 @@ theme: jekyll-theme-cayman
 title: "フキダシアリス"
 twitter:
   username: tiribro
-site.github.is_project_page: false
-site.show_downloads: false
+site.github.is_project_page: 0
+site.show_downloads: 0
 defaults:
   - scope:
       path: ""
