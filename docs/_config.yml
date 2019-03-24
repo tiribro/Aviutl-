@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: "フキダシアリス"
+site.title: "フキダシアリス"
 twitter:
   username: tiribro
 site.github.is_project_page: 0
