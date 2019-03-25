@@ -7,12 +7,8 @@ Aviutlと拡張編集の導入は自分で調べて頼む
 
 フキダシを再現。  
 「アニメーション効果」フィルタ用スクリプトパック。  
-<img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance.jpg" title="one chance">  
-このイメージは、１つのテキストオブジェクトと、４つのアニメーション効果を重ねて生成されています。  
-<img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_000.png" title="one chance">  
-
 
 | 図 | せつめい |
 ----|----
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance.jpg" title="one chance" width="50%"> | TD3 |
-| TD2 | TD4 |
+| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance.jpg" title="one chance"> | このイメージは、１つのテキストオブジェクトと、４つのアニメーション効果を重ねて生成されています。 |
+| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_000.png" title="one chance"> | こちらがテキストの設定画面です。 |
