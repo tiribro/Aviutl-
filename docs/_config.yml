@@ -3,7 +3,8 @@ title: "フキダシアリス.anm"
 description: "Aviutl拡張編集 アニメーション効果フィルター スクリプト"
 twitter:
   username: tiribro
-github: is_project_page: 0
+github:
+  is_project_page: 0
 show_downloads: 0
 defaults:
   - scope:
