@@ -31,7 +31,7 @@ Aviutlと拡張編集の導入は自分で調べて頼む
 | 参照ファイル | 出力イメージ |
 ----|----
 | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/soft_sq3x3_grid.png" width="300"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step001_00g.jpg"> |
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/soft_sq3x3_1080w.png" width="300"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step001.jpg"> |
+| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/soft_sq3x3_1080w.png" width="300">（ここに白くて角の丸い四角画像があるようだ・・・） | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step001.jpg"> |
 | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/soft_sq3x3_1080b.png" width="300"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step001_00b.jpg"> |
 
 #### パラメータ (FAフレーム3x3)
