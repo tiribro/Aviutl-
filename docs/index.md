@@ -11,7 +11,7 @@
 
 ## インストール
 
-[ダウンロード（.zip）](https://github.com/tiribro/FukidashiALICE.anm/blob/master/%E3%83%95%E3%82%AD%E3%83%80%E3%82%B7%E3%82%A2%E3%83%AA%E3%82%B9.zip)
+[ダウンロード（.zip）]({{ site.github.zip_url }})
 
 上記のファイルをダウンロードしてAviutlフォルダにインストールしてください  
 zipに梱包されたscriptフォルダ、figureフォルダ、エイリアスフォルダをお使いのAviutlフォルダにコピーしてください  
