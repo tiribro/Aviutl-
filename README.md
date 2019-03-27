@@ -1,2 +1,2 @@
-トップページ https://tiribro.github.io/FukidashiALICE.anm/
+（トップページ・・・） https://tiribro.github.io/FukidashiALICE.anm/
 
