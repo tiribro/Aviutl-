@@ -1,11 +1,15 @@
 theme: jekyll-theme-cayman
 title: "フキダシアリス.anm"
 description: "Aviutl拡張編集 アニメーション効果フィルター スクリプト"
+show_downloads: false
+
 twitter:
   username: tiribro
+
 github:
   is_project_page: false
-show_downloads: false
+  zip_url: "https://github.com/tiribro/FukidashiALICE.anm/blob/master/%E3%83%95%E3%82%AD%E3%83%80%E3%82%B7%E3%82%A2%E3%83%AA%E3%82%B9.zip"
+
 defaults:
   - scope:
       path: ""
