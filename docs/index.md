@@ -2,8 +2,8 @@
 
 | 図 | せつめい |
 ----|----
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance.jpg" title="one chance"> | １つのテキストオブジェクトでフキダシを再現します。 |
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_000.png" title="one chance"> | フィルタ（アニメーション効果）は４つ。<br>設定項目はたくさんありますが、付属のエイリアスからワンクリックで生成することもできます。 |
+| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance.jpg" title="one chance"> | １つのテキストでフキダシを再現。 |
+| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_000.png" title="one chance"> | フィルタ（アニメーション効果）が４つ。<br>設定項目はたくさんありますが、付属のエイリアスからワンクリックで生成することもできます。 |
 
 ## 注意
 
@@ -16,7 +16,7 @@
 上記のファイルをダウンロードしてAviutlフォルダにインストールしてください  
 zipに梱包されたscriptフォルダ、figureフォルダ、エイリアスフォルダをお使いのAviutlフォルダにコピーしてください  
 （Aviutl.exeと同じ階層にscriptフォルダなどを並べる）  
-より詳しい手順はこちらの[インストールページ](https://tiribro.github.io/FukidashiALICE.anm/install)を参照してください
+より詳しい手順は[こちらのインストールページ](https://tiribro.github.io/FukidashiALICE.anm/install)を参照してください
 
 ## チュートリアル
 
@@ -42,6 +42,6 @@ zipに梱包されたscriptフォルダ、figureフォルダ、エイリアス�
 #### ピンをアレンジする
 
 アニメーション効果「FAピン（図形）」を展開してください（上から二番目のフィルタ）  
-
+位置と曲げを調整するとピンの位置をアレンジできます。
 
 詳細なリファレンス解説ページ作成中っす
