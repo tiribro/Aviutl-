@@ -28,8 +28,8 @@
     <header class="page-header" role="banner">
       <a href="{{ site.baseurl }}"><span class="header-image" style="background-image: url('img/logo_w.jpg')"></span></a>
       <!-- <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <div style="padding-left:64px; padding-right:64px">
+        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
