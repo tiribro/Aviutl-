@@ -2,128 +2,39 @@
 
 | 図 | せつめい |
 ----|----
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance.jpg" title="one chance"> | １つのテキストオブジェクトだけでフキダシを再現します。 |
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_000.png" title="one chance"> | フィルターは４つ。設定項目はたくさんありますが、付属するエイリアスからワンクリックで生成することもできます。 |
+| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance.jpg" title="one chance"> | １つのテキストオブジェクトでフキダシを再現します。 |
+| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_000.png" title="one chance"> | フィルターは４つ。<br>設定項目はたくさんありますが、付属のエイリアスからワンクリックで生成することもできます。 |
 
+## 注意
 
-### FAフレーム3x3＠フキダシアリス
+以下の仕様は非対応の予定です
+- テキストの「文字毎に個別オブジェクト」への対応
 
-最初にこのフレーム用のスクリプトでフキダシの下地を描画します。ここでは角の丸い四角形バルーンを描画しています。
+## インストール
 
-| FAフレーム3x3だけを有効にした図 | せってい |
-----|----
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step001.jpg"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_001.png"> |
+ダウンロード（.zip）
 
-このスクリプトはほどほどにお利口さんなので、テキスト設定から自分で丁度良いサイズにバルーンを背面描画してくれます。
-一つだけ __注意点__ として __「文字毎に個別オブジェクト」非対応！！__ です。一切です。ご了承ください。お願い致します。
+上記のファイルをダウンロードしてAviutlフォルダにインストールしてください  
+zipに梱包されたscriptフォルダ、figureフォルダ、エイリアスフォルダをAviutlフォルダにコピーしてください  
+より詳しい手順はこちらのインストールページを参照してください
 
-このフレームは文字通りフレーム描画スクリプトです。与えられた画像を3x3のタイルとして認識し、任意のパラメータに従って伸縮し、背景にフィットします。次のテーブルをチェックしてください。丸角素材はお持ち帰りいただいて構いません。
+## チュートリアル
 
-| 参照ファイル | 出力イメージ |
-----|----
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/soft_sq3x3_grid.png" width="300"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step001_00g.jpg"> |
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/soft_sq3x3_1080w.png" width="300">（ここに白くて角の丸い四角画像があるようだ・・・） | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step001.jpg"> |
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/soft_sq3x3_1080b.png" width="300"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step001_00b.jpg"> |
+### フキダシを生成する
 
-#### パラメータ (FAフレーム3x3)
+エイリアス機能を使ってフキダシを生成してください  
+拡張編集のタイムラインを右クリックし、  
+メディアオブジェクトの追加＞フキダシアリス（エイリアス）＞フキダシ（メイリオ）  
+をクリックすると、テキスト入力可能なフキダシが生成されます
 
-##### 幅px
-> バルーンの幅を指定します。PADDING MODEがONの時には、元のイメージサイズを指定pxだけ水平方向に拡大します（PADDING MODEがOFFの時にはそのまま横幅pxとしてクリップします）
+このエイリアスはメイリオでのフキダシを作ります  
+このページのサンプルではテキストのフォントに「Rounded M+」（フリーフォント）を採用しています  
+イメージに合わせてお好みのものをご利用ください。  
 
-##### 高px
-> バルーンの高さを指定します。PADDING MODEがONの時には、元のイメージサイズを指定pxだけ垂直方向に拡大します（PADDING MODEがOFFの時にはそのまま高さpxとしてクリップします）
+### フキダシをカスタマイズする
 
-##### 枠px
-> 外枠を実際にどれだけの太さで描画するか指定します。大きくすると、参照された3x3素材のうちの、外枠のタイルが太く描画され、ゼロにした場合は中心のタイルだけが描画されます
+#### サイズを変更する
 
-| 枠px：25 | 枠px：75 |
-----|----
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step001.jpg"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step001_round.jpg"> |
-
-### FAピン＠フキダシアリス
-
-ピンを与えます。
-
-| FAフレーム3x3＋FAピン | せってい | 参照ファイル |
-----|----|----
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step002.jpg"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_002.png"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/delta.png">（ここに白い三角の画像があるようだ・・・） |
-
-ピンが付きました。
-
-#### パラメータ (FAピン)
-
-##### 位置
-> ピンは下地になる四角形の辺にそって設置されます。
->> 0-100 : 上辺  
->> 100-200 : 右辺  
->> 200-300 : 底辺  
->> 300-400 : 左辺  
-
-##### 幅px, 高px
-> ピン画像の描画サイズを指定します。マイナスの値を指定すると元画像サイズで描画されますが、たいして便利な機能ではありません。少し大きめにピン画像を作り、このスライダーをいじってピンのサイズを調整しましょう。
-
-##### 曲げpx
-> ピンの先端を下地の四角辺と平行にスライドすることで、ピンの方角をアレンジします。
-
-### FAシャドウ＠フキダシアリス
-
-非常にキメラなシャドウ生成フィルタです。２重縁取り＞単色化＞背面オフセット描画フィルタですが、何が何だかわかりません。ケーススタディでアプローチしましょう。
-
-| FAフレーム3x3＋FAピン＋FAシャドウ（一回目） | せってい１ | せってい２ |
-----|----|----
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step003.jpg"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_003.png"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_003a.png"> |
-
-外側にボーダーラインが描画されました。詳細設定画面をチェックしてください。縁取り以外なにも指定されていません。
-この設定であれば縁取りフィルタを二重でかけることと等価ですが、せっかくなので自スクリプトを使用しています。
-縁取りが処理される順番は最初に縁取り1、次に縁取り２が実行されます。
-
-次にFAシャドウをもう一度かけますが、ここで本来の目的を果たします。FAシャドウは「影を背面にずらして描写する」フィルタとして動作します。
-差がわかりにくいので、前後のイメージを比較しましょう。
-
-| FAフレーム3x3＋FAピン＋FAシャドウ（一回目） | FAフレーム3x3＋FAピン＋FAシャドウ（一回目）＋FAシャドウ（二回目） |
-----|----
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step003.jpg"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step004.jpg"> |
-
-バルーンがやや上にスライドして、その背後にシャドウが描写されています。
-左の画像をもとに、さらに二重で縁取りぼかしをかけて単色化し、
-生成したシャドウイメージの上に加工前の画像をずらして上書き復元したものが、右の画像です。
-
-| FAフレーム3x3＋FAピン＋FAシャドウ（一回目）＋FAシャドウ（二回目） | せってい１ | せってい２ |
-----|----|----
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance_step004.jpg"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_004.png"> | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_004a.png"> |
-
-#### パラメータ (FAシャドウ)
-
-##### X,Y
-> 最後に上書きされるオリジナルイメージを任意の量だけスライドします。「本体をオフセットする」がOFFのときは、シャドウ側をずらして描画します
-
-##### 透明度
-> シャドウの透明度です
-
-##### 設定＞最後に単色化する
-> 単色化を抑止します。OFFにすると、背後のシャドウを色付きのままにしておけます。（これは何？：このオプションは、縁取りでつけた色が単色化により消えることを抑止しますが、位置をスライドすると色付きのぼやけたイメージが露出してしまうため、スライドしない時にだけ役に立つオプションです）
-
-##### 設定＞単色化の色
-> シャドウ単色化するときの色
-
-##### 設定＞縁取り1, 縁取りのサイズ1, 縁取りのぼかし1, 縁取りの色1
-> 縁取り１回目のスイッチです。ONで縁取りが実行されます。また、縁取り１回目のサイズ、ぼかし、縁の色を指定します。
-
-##### 設定＞縁取り2, 縁取りのサイズ2, 縁取りのぼかし2, 縁取りの色2
-> 縁取り２回目のスイッチです。サイズ、ぼかし、縁の色を指定します。
-
-#### 設定＞アルファFadeIn／Out
-> フェード秒数を指定します。0より大きな秒数を指定した場合、開始/終了時に透明度によるフェードを行います
-
-#### 設定＞オフセットFadeIn／Out
-> フェード秒数を指定します。0より大きな秒数を指定した場合、開始/終了時にX,Yのオフセットがフェードします
-
-
-
-
-
-
-
-
-
+一番上のアニメーション効果「FAフレーム3x3（図形）」を展開してください。  
+幅pxと高pxでサイズを変更できます。
 
