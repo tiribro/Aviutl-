@@ -16,7 +16,7 @@
 上記のファイルをダウンロードしてAviutlフォルダにインストールしてください  
 zipに梱包されたscriptフォルダ、figureフォルダ、エイリアスフォルダをお使いのAviutlフォルダにコピーしてください  
 （Aviutl.exeと同じ階層にscriptフォルダなどを並べる）  
-より詳しい手順は[こちらのインストールページ](https://tiribro.github.io/FukidashiALICE.anm/install)を参照してください
+より詳しい手順は[こちらのインストールページ](./install)を参照してください
 
 ## チュートリアル
 
