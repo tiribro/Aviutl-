@@ -8,7 +8,7 @@ twitter:
 
 github:
   is_project_page: false
-  zip_url: "https://github.com/tiribro/FukidashiALICE.anm/blob/master/%E3%83%95%E3%82%AD%E3%83%80%E3%82%B7%E3%82%A2%E3%83%AA%E3%82%B9.zip"
+  zip_url: "https://github.com/tiribro/FukidashiALICE.anm/releases/download/v0.0/FukidashiALICE.zip"
 
 defaults:
   - scope:
