@@ -3,11 +3,16 @@
 | 図 | せつめい |
 ----|----
 | <img src="https://tiribro.github.io/FukidashiALICE.anm/img/one_chance.jpg" title="one chance"> | １つのテキストでフキダシを再現。 |
-| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_000.png" title="one chance"> | フィルタ（アニメーション効果）が４つ。<br>設定項目はたくさんありますが、付属のエイリアスからワンクリックで生成することもできます。 |
+| <img src="https://tiribro.github.io/FukidashiALICE.anm/img/prop_000.png" title="one chance"> | フィルタ（アニメーション効果）が４つ。<br><br>設定項目はたくさんありますが、付属のエイリアスからワンクリックで生成することもできます。<br><br>テキストを書き換えれば自動でリサイズ。 |
 
 ## 注意
 
-<font color="red">テキストの「文字毎に個別オブジェクト」には対応しません。仕様です。</font>
+<font color="red">
+- テキストの「文字毎に個別オブジェクト」には対応しません。
+- 垂直方向（上下方向）のテキスト揃えは無視されます。
+-- 横書きだと左寄せ・中寄せ・右寄せしか設定できません
+-- 縦書きだと上寄せ・中寄せ・下寄せしか設定できません
+</font>
 
 ## インストール
 
