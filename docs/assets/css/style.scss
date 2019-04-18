@@ -21,3 +21,105 @@
 .main-content table {
     word-break: break-word;
 }
+
+.tube1280x720 {
+  position: relative;
+}
+.tube1280x720::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+.tube1280x720 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide1440x839 {
+  position: relative;
+}
+.slide1440x839::before {
+  content: "";
+  display: block;
+  padding-top: 59.27083%;
+}
+.slide1440x839 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header_box {
+  position: relative;
+}
+.header_box::before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+.header_box iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a.project-head:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+a.project-head:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+a.project-head:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+a.project-head:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+table.file-tree td {
+    border-width: 0;
+    vertical-align: middle;
+    padding: 0em 0.5em;
+}
+table.file-tree td.file-tree-icon-cell {
+    width: 2em;
+    height: 2em;
+    padding: 0em 0.25em;
+}
+table.file-tree td.file-tree-icon-cell img {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.25em 0.25em 0em 0.25em;
+}
+table.file-tree td.file-tree-icon-cell :first-child {
+    margin: 0.25em 0.25em 0em 0.25em;
+}
+
+.header-side-r {
+    padding: 0;
+    height: 0;
+    text-align: right;
+}
+
+.header-side-r a {
+    position: relative;
+    right: 1em;
+}
+
+.header-side-r img {
+    width: 4em;
+    height: 4em;
+}
+
+
