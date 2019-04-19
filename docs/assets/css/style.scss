@@ -176,16 +176,37 @@ table.file-tree td.file-tree-icon-cell :first-child {
     border-spacing: 0.5em;
 }
 
-.main-content .img-instruction-table div {
-    display: table-cell;
-    vertical-align: top;
-    width: 50%;
-    padding: 0.5rem 1rem;
+@media screen and (max-width: 42em) {
+    .main-content .img-instruction-table div {
+        display: table-cell;
+        vertical-align: top;
+        width: 50%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 64em) and (min-width:42em) {
+    .main-content .img-instruction-table div {
+        display: table-cell;
+        vertical-align: top;
+        width: 50%;
+        padding: 0.25rem 0.5rem;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .main-content .img-instruction-table div {
+        display: table-cell;
+        vertical-align: top;
+        width: 50%;
+        padding: 0.5rem 1rem;
+    }
 }
 
 .main-content .img-instruction-table > div {
     display: table-row;
     width: 100%;
+    padding: 0;
 }
 
 
