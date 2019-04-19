@@ -70,18 +70,9 @@
   height: 100%;
 }
 
-a.project-head:link {
-    color: #ffffff;
-    text-decoration: none;
-}
-a.project-head:visited {
-    color: #ffffff;
-    text-decoration: none;
-}
-a.project-head:hover {
-    color: #ffffff;
-    text-decoration: none;
-}
+a.project-head:link,
+a.project-head:visited,
+a.project-head:hover,
 a.project-head:active {
     color: #ffffff;
     text-decoration: none;
@@ -120,6 +111,81 @@ table.file-tree td.file-tree-icon-cell :first-child {
 .header-side-r img {
     width: 4em;
     height: 4em;
+}
+
+@media screen and (max-width: 42em)
+{
+    .wideimage-caption {
+        max-width: 100%;
+    }
+    .wideimage-caption-block {}
+}
+
+@media screen and (max-width: 64em) and (min-width:42em)
+{
+    .wideimage-caption-block {
+        display: table;
+        width:100%;
+        table-layout:fixed;
+        word-break: keep-all;
+        word-wrap: break-word;
+        border-spacing: 0.5em;
+    }
+    .wideimage-caption-block div {
+        display: table-cell;
+        vertical-align: top;
+        width: 70%;
+    }
+    .wideimage-caption-block > div {
+        display: table-row;
+    }
+    div.wideimage-caption {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 64em)
+{
+    .wideimage-caption-block {
+        display: table;
+        width:100%;
+        table-layout:fixed;
+        word-break: keep-all;
+        word-wrap: break-word;
+        border-spacing: 0.5em;
+    }
+    .wideimage-caption-block div {
+        display: table-cell;
+        vertical-align: top;
+        width: 75%;
+    }
+    .wideimage-caption-block > div {
+        display: table-row;
+    }
+    div.wideimage-caption {
+        width: 25%;
+    }
+}
+
+.main-content .img-instruction-table {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    word-break: keep-all;
+    word-wrap: break-word;
+    border-spacing: 0.5em;
+}
+
+.main-content .img-instruction-table div {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+    padding: 0.5rem 1rem;
+}
+
+.main-content .img-instruction-table > div {
+    display: table-row;
+    width: 100%;
 }
 
 
