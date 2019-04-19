@@ -78,23 +78,44 @@ a.project-head:active {
     text-decoration: none;
 }
 
-table.file-tree td {
-    border-width: 0;
-    vertical-align: middle;
-    padding: 0em 0.5em;
+.main-content table.file-tree {
+    width: 100%;
+    table-layout: fixed;
+    overflow: hidden;
 }
-table.file-tree td.file-tree-icon-cell {
+.main-content table.file-tree td {
+    border-width: 0;
+    padding: 0em 0.5em;
+    vertical-align: middle;
+}
+.main-content table.file-tree td.file-tree-icon-cell {
+    background-color: #fff;
     width: 2em;
     height: 2em;
-    padding: 0em 0.25em;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
 }
-table.file-tree td.file-tree-icon-cell img {
+.main-content table.file-tree td.file-tree-icon-cell img,
+.main-content table.file-tree td.file-tree-icon-cell :first-child {
     width: 1.5em;
     height: 1.5em;
-    margin: 0.25em 0.25em 0em 0.25em;
+    margin: auto;
+    display: block;
 }
-table.file-tree td.file-tree-icon-cell :first-child {
-    margin: 0.25em 0.25em 0em 0.25em;
+.main-content table.file-tree td.file-tree-line-cell {
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.main-content table.file-tree td.file-tree-line-cell img,
+.main-content table.file-tree td.file-tree-line-cell :first-child {
+    width: 2em;
+    height: 2em;
+    margin: auto;
+    display: block;
 }
 
 .header-side-r {
@@ -102,12 +123,10 @@ table.file-tree td.file-tree-icon-cell :first-child {
     height: 0;
     text-align: right;
 }
-
 .header-side-r a {
     position: relative;
     right: 1em;
 }
-
 .header-side-r img {
     width: 4em;
     height: 4em;
