@@ -281,6 +281,7 @@ a.project-head:active {
 }
 .round-btn-box .active {
     position: absolute;
+    backface-visibility: hidden;
     left: 0;
     top: 0;
     opacity: 0;
