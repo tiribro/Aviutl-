@@ -6,6 +6,10 @@ show_downloads: false
 twitter:
   username: tiribro
 
+author:
+  twitter_link: "https://twitter.com/tiribro"
+  twitter_name: "チリブロッコ"
+
 github:
   is_project_page: false
   zip_url: "https://github.com/tiribro/FukidashiALICE.anm/releases/download/v0.0/FukidashiALICE.zip"
