@@ -230,3 +230,62 @@ a.project-head:active {
 }
 
 
+.site-footer .footer-table {
+    width: 100%;
+    table-layout: fixed;
+    overflow: hidden;
+    display: table;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+.site-footer .footer-row {
+    display: table-row;
+    width: 100%;
+    padding: 0;
+}
+
+.site-footer .footer-row > div {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 0.5em 1em 0;
+}
+
+.site-footer .footer-row .footer-btns-cell {
+    width: 4em;
+    height: 5em;
+    padding: 0 0 1em 0;
+}
+
+.site-footer .footer-row .footer-btns-cell img {
+    width: 4em;
+    height: 4em;
+}
+
+.btn.footer {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+}
+
+.btn.footer:hover {
+    background-color: #000;
+}
+
+.round-btn-box {
+    position: relative;
+    display: block;
+    width: 4em;
+    height: 4em;
+}
+.round-btn-box .active {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.2s;
+}
+.round-btn-box:hover .active {
+    opacity: 1;
+}
